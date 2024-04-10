@@ -3,9 +3,10 @@
 
 
 ## Overview
-The project consists of a Jupyter notebook where a classification algorithm is developed to determine the quality of wine based on certain wine characteristics. Additionally, an application is built where the user can obtain a summary according to the pages assigned from the following nutrition book: https://pressbooks.oer.hawaii.edu/humannutrition2/ 
+The project consists of using the pre-trained model FinBERT to develop a sentiment analysis algorithm for finance-related news. As part of the project, there is a web scraping system that gathers news from the Financial Times website for analysis.
+
 <p align="center">
-  <img src="example.png" alt="Sample Image" width="400">
+  <img src="example.png" alt="Sample Image" width="600">
 </p>
 
 ## Setup Instructions
@@ -16,7 +17,7 @@ The project consists of a Jupyter notebook where a classification algorithm is d
 
 2. Copy the .joblib file in the project folder
     ```html
-    Link to drive: 
+    https://drive.google.com/file/d/10OX2ougfC-89vlMzLoqF_JAs6vgsg5XF/view?usp=sharing
     ```
 
 3. Build the docker image:
@@ -35,6 +36,12 @@ The project consists of a Jupyter notebook where a classification algorithm is d
     ```
 
 ## Documentation
+- What is FinBert?
+FinBERT is a specialized pre-trained language model designed for financial sentiment analysis. It is built upon the BERT (Bidirectional Encoder Representations from Transformers) architecture, which is a type of neural network developed by Google for natural language processing tasks. FinBERT is fine-tuned on financial text data to better understand the nuances and context specific to the financial domain, making it particularly useful for sentiment analysis of financial news, reports, and other related documents.
+Link: https://huggingface.co/ProsusAI/finbert/tree/main
+
+- What is WebScrapping?
+Web scraping is the process of extracting data from websites. It involves automated techniques to gather information from web pages, typically using software programs or scripts to access the HTML code of a webpage and extract the desired data. Web scraping can be used to collect various types of information, such as text, images, prices, product details, and more, from multiple web pages for various purposes like research, analysis, or aggregation.
 
 ## License
 MIT License
