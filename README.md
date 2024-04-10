@@ -35,12 +35,15 @@ The project consists of using the pre-trained model FinBERT to develop a sentime
     http://localhost:8501
     ```
 
-## Documentation
+## Builded with
 - What is FinBert?
+
 FinBERT is a specialized pre-trained language model designed for financial sentiment analysis. It is built upon the BERT (Bidirectional Encoder Representations from Transformers) architecture, which is a type of neural network developed by Google for natural language processing tasks. FinBERT is fine-tuned on financial text data to better understand the nuances and context specific to the financial domain, making it particularly useful for sentiment analysis of financial news, reports, and other related documents.
+
 Link: https://huggingface.co/ProsusAI/finbert/tree/main
 
 - What is WebScrapping?
+
 Web scraping is the process of extracting data from websites. It involves automated techniques to gather information from web pages, typically using software programs or scripts to access the HTML code of a webpage and extract the desired data. Web scraping can be used to collect various types of information, such as text, images, prices, product details, and more, from multiple web pages for various purposes like research, analysis, or aggregation.
 
 ## License
